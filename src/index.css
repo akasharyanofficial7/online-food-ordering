@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content h1 {
+  font-size: 25px;
+}
+
+:root {
+  --color-bg: #f5f5f5;
+  /* Background color for the app */
+  --color-bg-variant: #ffffff;
+  /* Background color for pizza items */
+  --color-primary: #ff6348;
+  /* Primary color for buttons and accents */
+
+  --transition: all 400ms ease;
+  --color-primary-variant: rgba(255, 99, 72, 0.4);
+  /* Variant of the primary color */
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }

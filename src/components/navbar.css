@@ -1,0 +1,49 @@
+/* Custom styles for the navigation bar */
+.navbar {
+    background-color: #fff;
+    /* Set the background color */
+    border-bottom: 2px solid #343a40;
+    /* Add a bottom border for separation */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #343a40;
+    font-size: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+
+}
+
+.navbar-toggler-icon {
+    background-color: #343a40;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* Push the navigation items to the right */
+}
+
+.nav-link {
+    color: #343a40;
+    /* Set the link text color */
+    font-weight: bold;
+    /* Make the link text bold */
+    margin-right: 20px;
+    /* Add spacing between links */
+    transition: color 0.3s;
+    /* Add a smooth color transition on hover */
+}
+
+.nav-link:hover {
+    color: #007bff;
+    /* Change link text color on hover */
+}
+
+/* Style the active link */
+.nav-link.active {
+    color: #007bff;
+    /* Set the active link text color */
+}
